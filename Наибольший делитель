@@ -1,0 +1,13 @@
+Занятие 6. Цикл while
+Задача «Наибольший делитель»
+
+n = int(input())
+x = 2
+c = n / x
+while n % x != 0:
+    x += 1
+    c = n / x
+if c == 1:
+  print(int(n)) 
+else:
+  print(int(c))
